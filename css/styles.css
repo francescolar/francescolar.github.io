@@ -10957,6 +10957,36 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.dev-icons li {
+      transition: transform 0.3s ease, color 0.3s ease;
+      /* Assicurati che le transizioni siano fluide */
+    }
+
+    .dev-icons li:hover {
+      transform: scale(1.2); /* Ingrandimento al passaggio del mouse */
+      color: #BD5D38; /* Cambia sfumatura al passaggio del mouse (in questo caso un blu) */
+    }
+
+
+.language-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+}
+
+.language-icon a {
+  color: #DCDCDC;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.language-icon a:hover {
+  color: #495057;
+}
+
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
