@@ -37,11 +37,11 @@ window.addEventListener('DOMContentLoaded', event => {
             .catch(error => console.error('Errore nel caricamento della sezione:', error));
     }
 
-    loadSection('/sections/en/about.html', 'about');
-    loadSection('/sections/en/awards.html', 'awards');
-    loadSection('/sections/en/certifications.html', 'certifications');
-    loadSection('/sections/en/education.html', 'education');
-    loadSection('/sections/en/experience.html', 'experience');
-    loadSection('/sections/en/interests.html', 'interests');
-    loadSection('/sections/en/skills.html', 'skills');
+    loadSection('/sections/it/about.html', 'about');
+    loadSection('/sections/it/awards.html', 'awards');
+    loadSection('/sections/it/certifications.html', 'certifications');
+    loadSection('/sections/it/education.html', 'education');
+    loadSection('/sections/it/experience.html', 'experience');
+    loadSection('/sections/it/interests.html', 'interests');
+    loadSection('/sections/it/skills.html', 'skills');
 });
